@@ -1,0 +1,151 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+
+<title>Descriptions of Chapters </title>
+
+<div style="text-align:right">
+### <a href="docs/TOC_22March2019.pdf" style="color:rgb(105 147 236)">Download the full table of contents</a>
+</div>
+
+<br />
+
+## Part I. Fundamentals for modelling spatial and spatial-temporal data
+
+<button class="collapsible">Chapter 1. Challenges and opportunities analysing spatial and spatial-temporal data</button>
+<div class="content">
+<p>Describes four challenges that arise when analysing small area spatial data: spatial dependency, spatial heterogeneity, data sparsity and uncertainty. The special importance of spatial dependency is discussed. Examples of the opportunities for analysis that the methods of this book open up are given. We overview the two main approaches to modelling: Bayesian hierarchical models and Bayesian spatial econometric models. We describe reasons for a Bayesian approach to inference.</p>
+</div>
+
+<button class="collapsible">Chapter 2. Concepts for modelling spatial and spatial-temporal data: an introduction to "spatial thinking"</button>
+<div class="content">
+<p>Describes the geographical and spatial concepts (“spatial thinking”) that are frequently called upon to inform how statistical method is applied to spatial and spatial-temporal data for description and explanation. We describe why mapping matters. Taken together, Chapters 1 and 2 are designed to promote a fusing of two reasoning processes – one spatial the other statistical.</p>
+</div>
+
+<button class="collapsible">Chapter 3. The nature of spatial and spatial-temporal attribute data</button>
+<div class="content">
+  <p>Discusses types of data collection processes that generate spatial and spatial-temporal data, identifies the form of “experiment” (if any) that lies behind the data we analyse and then considers the implications for how we can interpret the results from any statistical analysis. We also discuss the presence of spatial dependence and spatial heterogeneity, as well as other data properties, in the context of how the data are collected and the relationship between the spatial database and the geographical “reality” that the chosen spatial database is constructed to represent. </p>
+</div>
+
+<button class="collapsible">Chapter 4. Specifying spatial relationships on the map: the weights matrix</button>
+<div class="content">
+  <p>Describes how spatial relationships between points or areas on a map can be represented using the spatial weights matrix (W). In spatial econometrics this matrix is important particularly in the context of estimating spatial spillover and feedback effects between areas whilst in hierarchical modelling it is particularly important in determining how information is borrowed between areas. Five main methods to define matrix entries are described: contiguity, geographical distance, graph-based methods, attribute based methods and interaction-based methods. The operation of matrix row standardisation and the construction of higher order weight matrices are described. Approaches to estimating the weights matrix are also discussed.  The reader’s attention is drawn to some of the statistical consequences arising from the way W is specified. An appendix shows how to create spatial weight matrices from a shapefile.</p>
+</div>
+
+<button class="collapsible">Chapter 5. Introduction to the Bayesian approach to regression modelling with spatial and spatial-temporal data</button>
+<div class="content">
+  <p>This chapter has three key objectives. The first objective is to provide the reader with an introduction to Bayesian inference from a theoretical perspective (what do we mean by “Bayesian inference”), from a model building perspective (how do we construct a Bayesian model to tackle the problem in hand) and from a computational perspective (how do we implement/fit a Bayesian model using WinBUGS). The second objective is to discuss Bayesian regression modelling, laying the foundation for the more complex spatial and spatial-temporal modelling that will be discussed in Parts II and III of the book. Finally, to help fix ideas, the third objective is to provide some illustrative examples using spatial data of the type that we introduced in the examples in Chapter 1.</p>
+</div>
+
+<br />
+
+## Part II. Modelling spatial data
+
+<button class="collapsible">Chapter 6. Exploratory analysis of spatial data</button>
+<div class="content">
+  <p>This chapter describes methods for exploring a new spatial dataset. The application of exploratory data analysis (EDA) methods can help the analyst to arrive at some early understanding of the part of the variability in a dataset that it might be possible to account for.  The reader is assumed to be familiar with the basic principles behind, and techniques of, EDA so that here concern focuses on specialist EDA techniques that are relevant to exploring the properties of small area spatial data and which support spatial data modelling. The chapter discusses techniques for univariate small area spatial data starting with the role of mapping followed by techniques for checking for spatial trends, spatial heterogeneity in the mean, global spatial dependence and finally for heterogeneity in the spatial dependence structure and for detecting event clusters. Exploratory techniques for examining relationships between two or more variables are discussed. An association between two variables need not be constrained to the same area nor be constant across the study region. Tests for overdispersion and zero-inflation in small area count data are also included.</p>
+</div>
+
+<button class="collapsible">Chapter 7. Bayesian models for spatial data I: Non-hierarchical and exchangeable hierarchical models</button>
+<div class="content">
+  <p>Estimating a large set of parameters reliably is often the goal of many small area analyses. This chapter and the next (Chapter 8) presents a family of Bayesian hierarchical models defined at the unit level where outcome values are reported at the individual (household) level. Bayesian hierarchical models encompass all the area-specific parameters within a common prior distribution. This hierarchical structure on the parameters gives rise to a distinctive feature known as information borrowing – the ability to borrow (or share) information across areas when estimating the area-specific parameters. This feature allows estimation of a large set of parameters in a way that addresses the issues arising from heterogeneity and data sparsity. We start by introducing the Newcastle household-level income data, the illustrative example that will run through both this chapter and the next, and describe four strategies for modelling the area-specific parameters. Two non-hierarchical models are first constructed and applied to the income data in order to illustrate their shortcomings (strategies 1 and 2). Then a Bayesian hierarchical model with the so-called “exchangeable” structure on the area-specific parameters – a modelling structure that allows information to be shared globally within the study region – is presented (strategy 3). </p>
+</div>
+
+<button class="collapsible">Chapter 8. Bayesian models for spatial data II: hierarchical models with spatial dependence</button>
+<div class="content">
+  <p>Following on from Chapter 7, this chapter presents a number of Bayesian spatial hierarchical models for modelling a set of small area parameters based on the idea of local information borrowing (strategy 4). Local information borrowing is based on the property of spatial dependence. Data values close together in geographical space tend to be more alike than data values that are further apart in geographical space. Imposing this dependence property of data on parameters helps further strengthen and improve parameter estimation. To implement the process of local information borrowing, models incorporating spatial dependency need to be constructed. Various spatial models for localized information sharing are presented, all of them involving some form of the conditional autoregressive (CAR) modelling structure. The intrinsic conditional autoregressive (ICAR) and the proper CAR (pCAR) models are described. Locally adaptive spatial smoothing models which allow the elements in the spatial weights matrix to be estimated using data are described as is the Besag-York-Mollié (BYM) model, which combines an exchangeable model (strategy 3) with the ICAR model, so that borrowing information is carried out both globally and locally. Using the Newcastle household-level income data, this chapter provides insights into the application of these different modelling options.</p>
+</div>
+
+<button class="collapsible">Chapter 9. Bayesian hierarchical models for spatial data: applications</button>
+<div class="content">
+  <p>This chapter presents four applications of the Bayesian hierarchical modelling approach that tackle a range of substantive problems at the area level in the social and public health sciences. In the process we demonstrate how, within the Bayesian approach to inference, certain statistical challenges arising from the modelling of spatial data can be addressed. In the first application, the aim is to identify the covariates that explain why some areas of a city are classified as high intensity crime areas (HIAs) whilst others are not. In the second, the aim is to assess the relationship between exposure to nitrogen oxide and stroke mortality at the small area level. The third application is an analysis of small area counts of new cases of malaria in a small region of India. The fourth application aims to model the spatial variation, at the small area scale, in the reported cases of violent sexual assault in Stockholm. Each case study presents certain statistical challenges which is the reason for their inclusion. These challenges include: handling missing data, dealing with incompatible spatial units, handling overdispersion and zero inflation when modelling small area count data, dealing with spatially autocorrelated missing covariates, allowing for spatial heterogeneity in model parameters and providing reliable small area estimates.</p>
+</div>
+
+<button class="collapsible">Chapter 10. Spatial econometric models</button>
+<div class="content">
+  <p>Spatial econometric models are a suite of likelihood-based models that adapt the standard normal linear regression model in order to address two of the fundamental challenges associated with spatial data, namely spatial dependence and spatial heterogeneity, and their implications for model specification, parameter estimation and hypothesis testing. Spatial econometric models pay particular attention to assessing spatial spillover and associated spatial feedback effects. The chapter describes the spatial lag model (SLM), the spatially-lagged covariates model (SLX), the spatial error model (SEM) and the spatial Durbin model (SDM).  An application demonstrates the form(s) of spatial spillover each model captures and discusses issues associated with the interpretation of the covariate effects on outcomes distinguishing between direct and indirect (or exogenous) effects of a covariate on the outcome.  Computational issues that arise from fitting some of the spatial econometric models to observed data are described. Finally we compare this group of spatial econometric models with the hierarchical models discussed in Chapters 7, 8 and 9.</p>
+</div>
+
+<button class="collapsible">Chapter 11. Spatial econometric modelling: applications</button>
+<div class="content">
+  <p>Two applications of spatial econometric modelling are presented and discussed. The first application aims to evaluate evidence of spatial spillover effects in voting outcomes aggregated to the local authority district level. The second application tests for price competition effects between individual petrol retail outlets in a large city. In both examples interest focuses on estimating interaction effects between places thus lending themselves to the spatial econometric approach in which models are expressed as a series of N simultaneous equations, one equation for each spatial unit. Both applications give rise to the problem of endogeneity. In both applications, the outcome variable is assumed to be normally distributed. However, the outcome data in both applications show features that may not satisfy the normality assumption and alternative approaches are discussed. For each application, the background to the problem is described, then the data followed by modelling issues and an exploratory analysis of the data. The results from the modelling are followed by a summary of some of the key statistical findings.</p>
+</div>
+
+<br />
+
+## Part III Modelling spatial-temporal data
+
+<button class="collapsible">Chapter 12. Modelling spatial-temporal data: an introduction</button>
+<div class="content">
+  <p>Adding the time dimension to a spatial analysis enables us to investigate the temporal evolution not only of the study region as a whole but also of each of the small areas which partition it. The challenges associated with analysing spatial-temporal data are described and the space-time modelling frameworks due to Knorr-Held (2000) are introduced. His space-time inseparable framework partitions the space-time variation in the observed outcome values into three components or models: a spatial model that captures an overall spatial distribution; a temporal model that captures an overall temporal pattern; and a space-time model that accommodates space-time interaction. The modelling argument is illustrated through the analysis of small area annual burglary count data. Models for overall temporal variation are described (the linear time trend model and the random walk models). When discussing these time series models, we pay particular attention to the presence of temporal dependence and temporal heterogeneity as well as how issues of data sparsity and uncertainty can be addressed. Again the idea of information borrowing is central. The interrupted time series model, important in policy evaluation, is described.</p>
+</div>
+
+<button class="collapsible">Chapter 13. Exploratory analysis of spatial-temporal data</button>
+<div class="content">
+  <p>We focus on exploratory methods, both graphical and numerical, that provide evidence for the presence of space-time interaction in data, implying the need for a space-time inseparable model, rather than a space-time separable model (which does not allow for space-time interaction). Knox’s global test for space-time clustering establishes whether there is a whole map tendency for cases to cluster in space-time, tackling the question of whether large (small) values are generally found near other large (small) values in space and time. Kulldorff’s space-time scan statistic detects localized space-time clusters. The chapter describes methods for assessing the presence of space-time interaction where different areas display different time trends but where these time trends may be spatially autocorrelated so that information borrowing can be employed at the modelling stage. All these exploratory techniques are illustrated with worked examples.</p>
+</div>
+
+<button class="collapsible">Chapter 14. Bayesian hierarchical models for spatial-temporal data I: space-time separable models</button>
+<div class="content">
+  <p>The Bayesian hierarchical modelling framework allows us to build a model for a complex spatial-temporal data structure in a modular fashion. Models can be created by using the models discussed up to this point – the spatial models of Chapters 7 and 8 to describe the overall spatial pattern common to all time points and the temporal models of Chapter 12 to describe the overall temporal pattern common to all spatial units. A sensible starting point is to combine a spatial model with a temporal model and to build a model that belongs to the class of space-time separable models. This is the purpose of this chapter. The chapter considers two ways of combining a spatial model with a temporal model – additively or multiplicatively – and explains why combining the two models additively is, in most practical applications, more appropriate. To illustrate the modelling, we analyse the annual burglary count data observed at the small area level in Peterborough, England, over the period 2001 to 2008. The goal of the analysis is to estimate the annual small area burglary rates. A number of space-time separable models that are candidates for meeting the goal of the analysis are presented. We provide detail on how to fit one of the candidate models to the burglary data in WinBUGS. Through this application, we reveal the importance of a space-time separable model to the process of modelling spatial-temporal data.</p>
+</div>
+
+<button class="collapsible">Chapter 15. Bayesian hierarchical models for spatial-temporal data II: space-time inseparable models</button>
+<div class="content">
+  <p>Significant discrepancies are often found between the spatial-temporal data that we observe and the predictions from a space-time separable model. Such departures from space-time separability, indicative of the presence of space-time interaction, can arise for many different reasons. In order to move from a space-time separable model to a space-time inseparable model it is necessary to add a space-time interaction component, a new “block” that is, to accommodate space-time interaction. The specification of such a block will draw on the two fundamental properties of spatial-temporal data: dependency (the basis for information borrowing) and heterogeneity (the form of which informs the specification of the parameters in the space-time interaction component). Four types of modelling strategy are discussed. Each modelling strategy is an assumption that imposes a dependence structure on the parameters in the space-time interaction component. The implications of each strategy (or assumed dependence structure) is considered for the purposes of information sharing and parameter estimation. These strategies are illustrated using small area annual burglary count data. The computational challenge that arises when fitting some of these space-time inseparable models is considered.</p>
+</div>
+
+<button class="collapsible">Chapter 16. Modelling spatial-temporal data: applications</button>
+<div class="content">
+  <p>Four applications of spatial-temporal data modelling are presented. The first three applications are all based on the underlying space-time inseparable modelling structure discussed in Chapter 15 and share a common inferential goal of detecting “unusual” areas with local time trends that differ markedly from the “common” time trend. However whilst application 1 assesses whether a geographically targeted crime prevention policy has had a measurable impact on the crime rates in the targeted areas applications 2 and 3 are topics within space-time surveillance. Distinguishing the two applications is whether we are dealing with shorter (application 2) or longer (application 3) time series. Different time series models are then specified accordingly. Underlying all three applications is a modelling structure in which the common/general time trend is obtained through the space-time separable structure and unusual local behaviours are captured through the space-time interaction component. A common problem in surveillance is the issue of multiple testing (or multiple comparisons) and this is discussed. Application 4 describes a spatial-temporal model to investigate the presence (or absence) of spatial-temporal spillover effects on village-level malaria risk within a district in India, extending the (static) spatial modelling described in Chapter 9.</p>
+</div>
+
+<br />
+
+## Part IV Directions in spatial and spatial-temporal data analysis
+<button class="collapsible">Chapter 17. Modelling spatial and spatial-temporal data: future agendas?</button>
+<div class="content">
+  <p>In this concluding chapter several topics that extend the models covered in the book are discussed. The first set describe extensions to hierarchical modelling: modelling multiple outcomes; joint modelling of georeferenced longitudinal and time-to-event data; multiscale modelling; use of survey data for small area estimation; and improving ecological inference. Reference is then made to the possibilities of using developments in geostatistics: modelling spatial structure; reducing visual bias in maps; modelling scale effects. Geostatistics too is based on a “borrowing strength” methodology in space (as well as in space-time). Also presented are developments in spatial econometrics in order to model spatial count data. Finally, in a time of “big” and ever “bigger” data reported at “fine” and ever “finer” scales of resolution we briefly draw the reader’s attention to some of the computational challenges that arise in spatial and spatial-temporal data modelling.  </p>
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+

@@ -1,0 +1,38 @@
+---
+title: "Modelling Spatial and Spatial-Temporal Data: A Bayesian approach"
+---
+<br />
+
+### By <a href="https://www.geog.cam.ac.uk/people/haining/" style="color:rgb(105 147 236)">Robert P. Haining</a> and <a href="https://www.northumbria.ac.uk/about-us/our-staff/l/guangquan-li/" style="color:rgb(105 147 236)">Guangquan Li</a>
+
+
+----
+<!-- https://easycloudsolutions.com/2011/02/16/how-to-display-an-image-in-html-with-padding/ for padding -->
+
+<img style="float:left; padding: 0px 50px 0px 0px;" src="images/bookcover.jpg" alt="Front cover"> 
+
+### Welcome!
+
+This is the accompanying website for our book **_Modelling Spatial and Spatial-Temporal Data: A Bayesian approach_**. Here we provide the datasets and the code so that the reader can perform the analyses featured in the book.
+
+<br />
+
+### Highlights of the book:
+
+* The book is aimed at statisticians and quantitative social, economic and public health students and researchers who work with small area spatial and spatial-temporal data; 
+
+* The book compares both hierarchical and spatial econometric modelling, providing both a reference and a teaching text with exercises in each chapter.
+
+* The book provides a fully Bayesian, self-contained, treatment of the underlying statistical theory, with chapters dedicated to substantive applications.
+
+<br />
+
+### <a href="chapters.html" style="color:rgb(105 147 236)">Contents</a>:
+
+* Part I covers fundamental issues arising when modelling small area spatial and spatial-temporal data.
+
+* Part II focuses on modelling cross-sectional spatial data.
+
+* Part III discusses modelling spatial-temporal data.
+
+* Part IV suggests some future directions and challenges in modelling spatial and spatial-temporal data.

@@ -1,0 +1,14 @@
+<title>Data & Code </title>
+
+
+* <h3>Chapter 4 </h3>
+<button type="button" class="btn btn-primary">[data_for_TenAreas.csv](data/ch4/data_for_TenAreas.csv)</button><button type="button" class="btn btn-primary">[TenAreas.zip](data/ch4/TenAreas.zip)</button>
+
+<br />
+
+* <h3>Chapter 5 </h3>
+
+<br />
+
+* <h3>Chapter 6 </h3>
+<button type="button" class="btn btn-primary">[cambridgeshire.zip](data/ch6/cambridgeshire.zip)</button> 
