@@ -1,0 +1,18 @@
+<title>Errata </title>
+
+### A list of known errors in the book
+
+<br />
+
+
+* Chapter 12
+  + page 425 Eq 12.13: at the end of the penultimate line of the equation, it should read "for t=T-1".
+ 
+<br />
+
+* Chapter 15
+  + page 507 Figure 15.4: for $\mathbf{\it{K}}_{RW1}$, last number of the matrix should be $1$ instead of $-1$.
+<br />
+<br />
+
+Thanks to Floriane for reporting the errors to us.
