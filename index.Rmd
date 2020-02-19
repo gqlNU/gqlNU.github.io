@@ -17,7 +17,7 @@ This is the accompanying website for our book **_Modelling Spatial and Spatial-T
 
 <br />
 
-### Highlights of the book:
+### Highlights of the book :
 
 * The book is aimed at statisticians and quantitative social, economic and public health students and researchers who work with small area spatial and spatial-temporal data; 
 
