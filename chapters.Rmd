@@ -22,13 +22,14 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+  color: black;
 }
 </style>
 
 <title>Descriptions of Chapters </title>
 
 <div style="text-align:right">
-### <a href="docs/TOC_22March2019.pdf" style="color:rgb(105 147 236)">Download the full table of contents</a>
+<!-- ### <a href="docs/TOC_22March2019.pdf" style="color:rgb(105 147 236)">Download the full table of contents</a> -->
 </div>
 
 <br />
