@@ -15,4 +15,4 @@
 <br />
 <br />
 
-<!-- Thanks to Floriane for reporting the errors to us.-->
+Thanks to Floriane for reporting the errors to us.
