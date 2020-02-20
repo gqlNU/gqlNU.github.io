@@ -2,13 +2,21 @@
 
 
 * <h3>Chapter 4 </h3>
-<button type="button" class="btn btn-primary">[data_for_TenAreas.csv](data/ch4/data_for_TenAreas.csv)</button><button type="button" class="btn btn-primary">[TenAreas.zip](data/ch4/TenAreas.zip)</button>
-
+  <ul>
+    <li><button type="button" class="btn btn-primary">[data_for_TenAreas.csv](data/ch4/data_for_TenAreas.csv)</button></li>
+    <li><button type="button" class="btn btn-primary">[TenAreas.zip](data/ch4/TenAreas.zip)</button></li>
+  </ul>
 <br />
 
 * <h3>Chapter 5 </h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[The household-level income data](data/ch5/household_income_data.txt)</button></li>
 
+    <li><button type="button" class="btn btn-primary">[The COA-level Peterborough burglary count data in 2005](data/ch5/peterborough_COA_burglary_2005.txt)</button></li>
+  </ul>
 <br />
 
 * <h3>Chapter 6 </h3>
-<button type="button" class="btn btn-primary">[cambridgeshire.zip](data/ch6/cambridgeshire.zip)</button> 
+  <ul>
+    <li><button type="button" class="btn btn-primary">[cambridgeshire.zip](data/ch6/cambridgeshire.zip)</button></li>
+  </ul>
