@@ -13,6 +13,10 @@
     <li><button type="button" class="btn btn-primary">[The household-level income data](data/ch5/household_income_data.txt)</button></li>
 
     <li><button type="button" class="btn btn-primary">[The COA-level Peterborough burglary count data in 2005](data/ch5/peterborough_COA_burglary_2005.txt)</button></li>
+    
+    <li><button type="button" class="btn btn-primary">[The PHIA data in Sheffield with four covariates](data/ch5/PHIA_with_covariates.csv)</button></li>
+    
+    <li><button type="button" class="btn btn-primary">[The EHIA data in Sheffield with four covariates](data/ch5/EHIA_with_covariates.csv)</button></li>
   </ul>
 <br />
 
