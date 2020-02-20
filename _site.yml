@@ -9,6 +9,8 @@ navbar:
       href: chapters.html
     - text: "Data & Code"
       href: datacode.html
+    - text: "News"
+      href: news.html
     - text: "Errata"
       href: errata.html
 
