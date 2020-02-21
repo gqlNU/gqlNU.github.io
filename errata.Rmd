@@ -1,6 +1,6 @@
 <title>Errata </title>
 
-### A list of known errors in the book
+<!-- ### A list of known errors in the book-->
 
 <br />
 
