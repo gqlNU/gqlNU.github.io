@@ -38,4 +38,5 @@
   <ul>
     <li><button type="button" class="btn btn-primary">[Household-level income data for Newcastle (the same as that in Chapter 7)](data/ch8/income_for_ch8.RData)</button></li>
     <li><button type="button" class="btn btn-primary">[A zip file containing the MSOAs in Newcastle upon Tyne](data/ch8/Newcastle_MSOAs.zip)</button></li>
+    <li><button type="button" class="btn btn-primary">[The numbers of fulltime working residuents across the 109 MSOAs in Newcastle](data/ch8/work_residents.csv)</button></li>
   </ul>
