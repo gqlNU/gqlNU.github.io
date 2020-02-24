@@ -33,3 +33,9 @@
     <li><button type="button" class="btn btn-primary">[Household-level income data for Newcastle (no spatial)](data/ch7/income_for_ch7.RData)</button></li>
     <li><button type="button" class="btn btn-primary">[The MSOA-level income estimates used to simulate the household-level data](data/ch7/Newcastle_MSOA_income.csv)</button></li>
   </ul>
+
+* <h3>Chapter 8 </h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Household-level income data for Newcastle (the same as that in Chapter 7)](data/ch8/income_for_ch8.RData)</button></li>
+    <li><button type="button" class="btn btn-primary">[A zip file containing the MSOAs in Newcastle upon Tyne](data/ch8/Newcastle_MSOAs.zip)</button></li>
+  </ul>
