@@ -27,3 +27,9 @@
     <li><button type="button" class="btn btn-primary">[The Sheffield HIA data for the join-count test](data/ch6/sheffield.zip)</button></li>
     <li><button type="button" class="btn btn-primary">[The village-level malaria incidence data](data/ch6/malaria.RData)</button></li>
   </ul>
+  
+* <h3>Chapter 7 </h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Household-level income data for Newcastle (no spatial)](data/ch7/income_for_ch7.RData)</button></li>
+    <li><button type="button" class="btn btn-primary">[The MSOA-level income estimates used to simulate the household-level data](data/ch7/Newcastle_MSOA_income.csv)</button></li>
+  </ul>
