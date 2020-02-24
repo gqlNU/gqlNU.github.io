@@ -25,4 +25,5 @@
     <li><button type="button" class="btn btn-primary">[A zip file containig the shapefile(s) of Cambridgeshire](data/ch6/cambridgeshire.zip)</button></li>
     <li><button type="button" class="btn btn-primary">[The household-level income in Newcastle with MSOA indicator](data/ch6/income.RData)</button></li>
     <li><button type="button" class="btn btn-primary">[The Sheffield HIA data for the join-count test](data/ch6/sheffield.zip)</button></li>
+    <li><button type="button" class="btn btn-primary">[The village-level malaria incidence data](data/ch6/malaria.RData)</button></li>
   </ul>
