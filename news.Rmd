@@ -1,6 +1,7 @@
 <title>News </title>
 
 <br />
+
 ### An upcoming 3.5 days course on modelling spatial and spatial-temporal data
 
 ___
