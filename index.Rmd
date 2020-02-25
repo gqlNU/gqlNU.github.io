@@ -9,7 +9,7 @@ title: "Modelling Spatial and Spatial-Temporal Data: A Bayesian approach"
 ----
 <!-- https://easycloudsolutions.com/2011/02/16/how-to-display-an-image-in-html-with-padding/ for padding -->
 
-<img style="float:left; padding: 0px 50px 0px 0px;" src="images/bookcover.jpg" alt="Front cover"> 
+[<img style="float:left; padding: 0px 50px 0px 0px;" src="images/bookcover.jpg" alt="Front cover">](https://www.crcpress.com/Modelling-Spatial-and-Spatial-Temporal-Data-A-Bayesian-Approach/Haining-Li/p/book/9781482237429)
 
 ### Welcome!
 
