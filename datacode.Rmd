@@ -40,3 +40,6 @@
     <li><button type="button" class="btn btn-primary">[A zip file containing the MSOAs in Newcastle upon Tyne](data/ch8/Newcastle_MSOAs.zip)</button></li>
     <li><button type="button" class="btn btn-primary">[The numbers of fulltime working residuents across the 109 MSOAs in Newcastle](data/ch8/work_residents.csv)</button></li>
   </ul>
+  
+<br />
+This page is still under construction. Datasets and R/WinBUGS scripts for other chapters will be uploaded in due course. If a specific dataset or script is required, please email us at guangquan.li@northumbria.ac.uk.
