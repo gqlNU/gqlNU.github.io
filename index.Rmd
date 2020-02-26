@@ -1,6 +1,7 @@
 ---
 title: "Modelling Spatial and Spatial-Temporal Data: A Bayesian approach"
 ---
+
 <br />
 
 <font size="4"> By <a href="https://www.geog.cam.ac.uk/people/haining/" style="color:rgb(105 147 236)">Robert P. Haining</a> and <a href="https://www.northumbria.ac.uk/about-us/our-staff/l/guangquan-li/" style="color:rgb(105 147 236)">Guangquan Li</a>
