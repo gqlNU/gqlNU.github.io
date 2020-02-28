@@ -1,0 +1,7 @@
+---
+title: "External resources"
+---
+
+
+We encourage people to make contribution towards our website by providing relevant material (e.g. weblinks, data and R/WinBUGS scripts). This page is dedicated to host such information. Please do email us (at guangquan.li@northumbria.ac.uk) if you want to contribute.
+
