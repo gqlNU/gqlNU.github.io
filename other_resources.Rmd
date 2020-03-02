@@ -5,3 +5,9 @@ title: "External resources"
 
 We encourage people to make contribution towards our website by providing relevant material (e.g. weblinks, data and R/WinBUGS scripts). This page is dedicated to host such information. Please do email us (at guangquan.li@northumbria.ac.uk) if you want to contribute.
 
+<br />
+
+
+* WinBUGS (and OpenBUGS) can be run on Windows, Linux (e.g. Ubuntu) and macOS. 
+  + For Windows, follow the instructions in [the BUGS website](https://www.mrc-bsu.cam.ac.uk/software/bugs/the-bugs-project-winbugs/) to install the programme. 
+  + For Linux/macOS, WinBUGS/OpenBUGS needs to be run via [wine](www.winehq.org): see [here](https://wiki.winehq.org/Ubuntu) for installation of wine on Ubuntu and [the webpage by David Baumgold](https://www.davidbaumgold.com/tutorials/wine-mac/) provides a set of "easy-to-follow" instructions for installing wine on macOS. Note that, as stated on the wine website, wine is available for [macOS 10.8 to 10.14 (Wine won't work on macOS Catalina 10.15)](https://wiki.winehq.org/MacOS). There is a workaround ([here](https://apple.stackexchange.com/questions/373851/how-to-get-wine-working-on-catalina)), although we have not tried the implementation with WinBUGS. Alternatively, virtual machines (e.g. VirtualBox, Parallels for Mac or VMware Fusion) could be used.
