@@ -8,14 +8,16 @@ ___
 
 Following the publication of our book, we will be delivering a training course on modelling spatial and spatial-temporal data. This training course introduces powerful Bayesian spatial and spatial-temporal modelling techniques that enable researchers to analyse social, economic, political and public health data.
 
+<!--
 <br />
 <button type="button" class="btn btn-primary">[Course registration will open soon](news.html)</button>
+-->
 
 <br />
 
-#### <u>When and where</u>
+#### <u>Where and when</u>
 
-May 12-15, 2020 at Northumbria University, Newcastle, UK
+~~May 12-15 2020~~  At Northumbria University, Newcastle, UK. We are sorry that the course will be postponed till later this year.
 
 <br />
 
@@ -48,5 +50,7 @@ Prof. Robert Haining (Cambridge) and Dr. Guangquan Li (Northumbria)
 
 The course is aimed at PhD students, Post-Doctoral researchers and academic staff in the social, economic, political and public health sciences who have a background in quantitative methods at least up to and including the normal linear regression model. Prior experience of generalized linear modelling will be helpful for some parts of the course as will some familiarity with the basic ideas behind Bayesian inference.
 
+<!--
 <br />
 <button type="button" class="btn btn-primary">[Course registration will open soon](news.html)</button>
+-->
