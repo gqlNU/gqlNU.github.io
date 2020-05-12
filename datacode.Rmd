@@ -43,10 +43,16 @@
   
 * <h3>Chapter 9 </h3>
   <ul>
-    <li><button type="button" class="btn btn-primary">[The full data on COA-level high intensity crime areas (HIAs) in Sheffield](data/ch9/Sheffield_ch9.zip)</button></li>
-    <li><button type="button" class="btn btn-primary">[The NOx-stroke data including the survey data on smoking prevalence ](data/ch9/NOx_Stroke_with_smoking.txt)</button></li>
-    <li><button type="button" class="btn btn-primary">[The NOx-stroke data with within-ED variation on NOx exposure](data/ch9/NOx_Stroke_withinED_exposure.zip)</button></li>
-    <li> The village-level malaria incidence data in Kalaburagi taluk, India between June and July, 2012
+    <li> <h5>The COA-level high intensity crime areas (HIAs) in Sheffield</h5>
+    <ul>
+      <li><button type="button" class="btn btn-primary">[The shapefile](data/ch9/Sheffield_ch9.zip)</button></li>
+    </ul>
+    <li><h5>The NOx-stroke study</h5></li>
+    <ul>
+      <li> <button type="button" class="btn btn-primary">[ The NOx-stroke data (including the survey data on smoking prevalence) ](data/ch9/NOx_Stroke_with_smoking.txt)</button></li>
+      <li><button type="button" class="btn btn-primary">[The NOx-stroke data with within-ED variation on NOx exposure](data/ch9/NOx_Stroke_withinED_exposure.zip)</button></li>
+    </ul>
+    <li> <h5>The village-level malaria incidence data in Kalaburagi taluk, India between June and July, 2012</li>
     <ul>
       <li><button type="button" class="btn btn-primary">[The shapefile ](data/ch9/malaria_spatial.zip)</button></li>
       <li><button type="button" class="btn btn-primary">[The R scripts to analyse the malaria data](data/ch9/malaria/malaria.zip)</button></li>
