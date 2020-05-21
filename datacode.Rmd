@@ -58,5 +58,11 @@
       <li><button type="button" class="btn btn-primary">[The R scripts to analyse the malaria data](data/ch9/malaria/malaria.zip)</button></li>
     </ul>
   </ul>
+  
+* <h3>Chapter 10 </h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[The log cigarette prices and sales and the W matrix](data/ch10/cigarrete.RData)</button></li>
+    <li><button type="button" class="btn btn-primary">[The WinBUGS data list (see Section 10.4 for the detail)](data/ch10/cigarette_data4WinBUGS.txt)</button></li>
+  </ul>
 <br />
 This page is still under construction. Datasets and R/WinBUGS scripts for other chapters will be uploaded in due course. If a specific dataset or script is required, please email us at guangquan.li@northumbria.ac.uk.
