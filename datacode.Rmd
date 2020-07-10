@@ -70,4 +70,10 @@
     <li><button type="button" class="btn btn-primary">[Shapefile with the Brexit data](data/ch11/brexit.shp)</button></li>
   </ul>
 <br />
+
+* <h3>Chapter 16 </h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Code and data for the malaria analysis in Section 16.5](data/ch16/malaria/malaria_section16_5.zip)</button></li>
+  </ul>
+<br />
 This page is still under construction. Datasets and R/WinBUGS scripts for other chapters will be uploaded in due course. If a specific dataset or script is required, please email us at guangquan.li@northumbria.ac.uk.
