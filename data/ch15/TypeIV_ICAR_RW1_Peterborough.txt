@@ -1,0 +1,48 @@
+##########################################################################
+####   space-time inseparable of Type IV - 
+####      ICAR interacting with RW1 with double centring
+####      
+####   For more detail on this model, see
+####      Section 15.7.3
+####      Exercise 15.9 
+##########################################################################
+model
+{
+    for (i in 1:N) {
+        for (t in 1:T) {
+            y[i, t] ~ dpois(mu[i, t])
+            log(mu[i, t]) <- log(n[i]) + alpha + (S[i] + U[i]) + v[t] + delta.centred[i, t]
+            d[i,t] <- delta[deltaID[i, t]]
+            delta.centred[i, t] <- d[i, t] - row.mean[i] - col.mean[t]
+            deltaID[i, t] <- i + (t - 1) * T
+        }
+        U[i] ~ dnorm(0, prec.U)
+    }
+    for (i in 1:N) {
+        row.mean[i] <- sum(d[i, 1:T])/T
+    }
+    for (t in 1:T) {
+        col.mean[t] <- sum(d[1:N, t])/N
+    }
+    #   ICAR prior
+    S[1:N] ~ car.normal(sp.adj[], sp.weights[], sp.num[], prec.S)
+    #   RW1 prior
+    v[1:T] ~ car.normal(tm.adj[], tm.weights[], tm.num[], prec.v)
+    #   space-time interaction with the adjacency derived via
+    #   the Kronecker product 
+    #   (derived using contruct_TypeIV_weights.R on the book's website)
+    delta[1:NT] ~ car.normal(sptm.adj[], sptm.weights[], sptm.num[],prec.delta)
+
+    #   hyperpriors
+    alpha ~ dflat()
+    sigma.S ~ dunif(a, b)
+    sigma.v ~ dunif(a, b)
+    sigma.U ~ dunif(a, b)
+    sigma.delta ~ dunif(a, b)
+    a <- 0.00001
+    b <- 10
+    prec.S <- pow(sigma.S, -2)
+    prec.v <- pow(sigma.v, -2)
+    prec.U <- pow(sigma.U, -2)
+    prec.delta <- pow(sigma.delta, -2)
+}
