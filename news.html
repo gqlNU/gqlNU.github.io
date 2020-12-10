@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>news.utf8.md</title>
+<title>news.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -93,7 +93,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -242,6 +241,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -253,18 +253,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -331,8 +319,8 @@ $(document).ready(function () {
 News
 </title>
 <p><br /></p>
-<div id="an-upcoming-3.5-days-course-on-modelling-spatial-and-spatial-temporal-data" class="section level3">
-<h3>An upcoming 3.5 days course on modelling spatial and spatial-temporal data</h3>
+<div id="a-3.5-days-course-on-modelling-spatial-and-spatial-temporal-data" class="section level3">
+<h3>A 3.5 days course on modelling spatial and spatial-temporal data</h3>
 <hr />
 <p>Following the publication of our book, we will be delivering a training course on modelling spatial and spatial-temporal data. This training course introduces powerful Bayesian spatial and spatial-temporal modelling techniques that enable researchers to analyse social, economic, political and public health data.</p>
 <!--
@@ -342,7 +330,8 @@ News
 <p><br /></p>
 <div id="where-and-when" class="section level4">
 <h4><u>Where and when</u></h4>
-<p><del>May 12-15 2020</del> At Northumbria University, Newcastle, UK. We are sorry that the course will be postponed till later this year.</p>
+<!-- ~~May 12-15 2020~~  At Northumbria University, Newcastle, UK. We are sorry that the course will be postponed till later this year. -->
+<p>We plan to deliver this training course in 2021 and will update this in due course.</p>
 <p><br /></p>
 </div>
 <div id="course-leaders" class="section level4">
@@ -396,6 +385,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

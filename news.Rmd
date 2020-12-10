@@ -2,7 +2,7 @@
 
 <br />
 
-### An upcoming 3.5 days course on modelling spatial and spatial-temporal data
+### A 3.5 days course on modelling spatial and spatial-temporal data
 
 ___
 
@@ -17,7 +17,9 @@ Following the publication of our book, we will be delivering a training course o
 
 #### <u>Where and when</u>
 
-~~May 12-15 2020~~  At Northumbria University, Newcastle, UK. We are sorry that the course will be postponed till later this year.
+<!-- ~~May 12-15 2020~~  At Northumbria University, Newcastle, UK. We are sorry that the course will be postponed till later this year. -->
+We plan to deliver this training course in 2021 and will update this in due course.
+
 
 <br />
 
