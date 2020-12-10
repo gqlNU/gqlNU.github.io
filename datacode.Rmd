@@ -71,6 +71,17 @@
   </ul>
 <br />
 
+* <h3>Chapter 15 </h3>
+  <ul>
+    <li>The two files for Exercise 15.9 
+    <ul>
+      <li><button type="button" class="btn btn-primary">[construct_TypeIV_weights.R](data/ch15/construct_TypeIV_weights.R)</button></li>
+      <li><button type="button" class="btn btn-primary">[TypeIV_ICAR_RW1_Peterborough.txt](data/ch15/TypeIV_ICAR_RW1_Peterborough.txt)</button></li>
+    </ul>
+  </ul>
+<br />
+
+
 * <h3>Chapter 16 </h3>
   <ul>
     <li><button type="button" class="btn btn-primary">[Code and data for the malaria analysis in Section 16.5](data/ch16/malaria/malaria_section16_5.zip)</button></li>
