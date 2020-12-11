@@ -78,7 +78,7 @@
   </ul>
 <br />
 
-* <h3>Chapters 14 and 15</h3>
+* <h3>Chapters 14</h3>
   <ul>
     <li><button type="button" class="btn btn-primary">[Peterborough COA-level burglary counts 2001-2008 (in csv format)](data/peterborough/peterborough_2001to2008.csv)</button></li>
     <li><button type="button" class="btn btn-primary">[Peterborough COA shapefile](data/peterborough/PeterboroughCOA_shape.zip)</button></li>
@@ -89,7 +89,10 @@
 
 * <h3>Chapter 15 </h3>
   <ul>
-    <li>The two files for Exercise 15.9 
+    <li><button type="button" class="btn btn-primary">[Peterborough COA-level burglary counts 2001-2008 (in csv format)](data/peterborough/peterborough_2001to2008.csv)</button></li>
+    <li><button type="button" class="btn btn-primary">[Peterborough COA shapefile](data/peterborough/PeterboroughCOA_shape.zip)</button></li>
+
+    <li>Two files for Exercise 15.9 
     <ul>
       <li><button type="button" class="btn btn-primary">[construct_TypeIV_weights.R](data/ch15/construct_TypeIV_weights.R)</button></li>
       <li><button type="button" class="btn btn-primary">[TypeIV_ICAR_RW1_Peterborough.txt](data/ch15/TypeIV_ICAR_RW1_Peterborough.txt)</button></li>
