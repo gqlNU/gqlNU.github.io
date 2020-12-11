@@ -67,9 +67,25 @@
   
 * <h3>Chapter 11 </h3>
   <ul>
-    <li><button type="button" class="btn btn-primary">[Shapefile with the Brexit data](data/ch11/brexit.shp)</button></li>
+    <li><button type="button" class="btn btn-primary">[Shapefile with the Brexit data](data/ch11/brexit.zip)</button></li>
   </ul>
 <br />
+
+* <h3>Chapter 13 </h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Peterborough COA-level burglary counts 2005-2008 (in csv format)](data/peterborough/peterborough_2005to2008.csv)</button></li>
+    <li><button type="button" class="btn btn-primary">[Peterborough COA shapefile](data/peterborough/PeterboroughCOA_shape.zip)</button></li>
+  </ul>
+<br />
+
+* <h3>Chapters 14 and 15</h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Peterborough COA-level burglary counts 2001-2008 (in csv format)](data/peterborough/peterborough_2001to2008.csv)</button></li>
+    <li><button type="button" class="btn btn-primary">[Peterborough COA shapefile](data/peterborough/PeterboroughCOA_shape.zip)</button></li>
+  </ul>
+<br />
+
+
 
 * <h3>Chapter 15 </h3>
   <ul>
@@ -84,6 +100,8 @@
 
 * <h3>Chapter 16 </h3>
   <ul>
+    <li><button type="button" class="btn btn-primary">[Peterborough COA-level burglary counts 2005-2008 (in csv format)](data/peterborough/peterborough_2005to2008.csv)</button></li>
+    <li><button type="button" class="btn btn-primary">[Peterborough COA shapefile](data/peterborough/PeterboroughCOA_shape.zip)</button></li>
     <li><button type="button" class="btn btn-primary">[Code and data for the malaria analysis in Section 16.5](data/ch16/malaria/malaria_section16_5.zip)</button></li>
   </ul>
 <br />
