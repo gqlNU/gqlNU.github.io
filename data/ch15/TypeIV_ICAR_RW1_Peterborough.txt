@@ -17,7 +17,8 @@ model
             ###  the ordering of random effects in delta as set out below
             ###  matches with the neighbouring structure defined through 
             ###  the R script construct_TypeIV_weights.R 
-            ###  (see also top of p. 508 for detail)
+            ###  (see also top of p. 508 for detail and 
+            ###   thanks to Gary for spotting a mistake in an earlier version of the code)
             deltaID[i, t] <- t + (i - 1) * T 
         }
         U[i] ~ dnorm(0, prec.U)
