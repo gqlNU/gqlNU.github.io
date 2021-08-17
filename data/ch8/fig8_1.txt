@@ -1,0 +1,37 @@
+# The WinBUGS code for specifying the model with the ICAR prior 
+model {
+# a for-loop to go through all the household level income data 
+  for (j in 1:nhhs) {
+    # defining the normal likelihood for each household
+    y[j] ~ dnorm(theta[msoa[j]],prec.y) 
+  }
+  for (i in 1:nmsoas) {
+    # each theta is the sum of the Newcastle average and the 
+    # corresponding S[i]
+    theta[i] <- alpha + S[i]
+  }
+  # modelling all the parameters in S using the ICAR model 
+  S[1:nmsoas] ~ car.normal(adj[],weights[],num[],prec.S)
+
+  # the improper uniform prior on the whole real line for the 
+  # intercept
+  alpha ~ dflat()
+
+  # a vague prior for the hyperparameter in the ICAR model 
+  sigma.S ~ dunif(0.0001,1000)
+
+  # a vague prior for the sampling standard deviation 
+  sigma.y ~ dunif(0.0001,1000)
+
+  # calculate the two precisions 
+  prec.S <- pow(sigma.S,-2)
+  prec.y <- pow(sigma.y,-2)
+
+  # calculate the household-level variance for the VPC calculation 
+  var.y <- pow(sigma.y,2)
+  # calculate the MSOA-level variance (the unconditional variance 
+  # of the S parameters) for the VPC calculation
+  var.S.un <- sd(S[1:nmsoas]) * sd(S[1:nmsoas])
+  # calculate VPC defined in Eq. 7.8 in Chapter 7 
+  vpc <- var.S.un / (var.S.un + var.y) * 100
+}
