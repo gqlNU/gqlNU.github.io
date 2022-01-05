@@ -39,6 +39,8 @@
     <li><button type="button" class="btn btn-primary">[Household-level income data for Newcastle (the same as that in Chapter 7)](data/ch8/income_for_ch8.RData)</button></li>
     <li><button type="button" class="btn btn-primary">[A zip file containing the MSOAs in Newcastle upon Tyne](data/ch8/Newcastle_MSOAs.zip)</button></li>
     <li><button type="button" class="btn btn-primary">[The numbers of fulltime working residuents across the 109 MSOAs in Newcastle](data/ch8/work_residents.csv)</button></li>
+    <li><button type="button" class="btn btn-primary">[A text file of the model in Figure 8.1](data/ch8/fig8_1.txt)</button></li>
+    <li><button type="button" class="btn btn-primary">[An R script to run the model in Figure 8.1 through R2WinBUGS](data/ch8/running_fig8_1.txt)</button></li>
   </ul>
   
 * <h3>Chapter 9 </h3>
@@ -68,6 +70,12 @@
 * <h3>Chapter 11 </h3>
   <ul>
     <li><button type="button" class="btn btn-primary">[Shapefile with the Brexit data](data/ch11/brexit.zip)</button></li>
+  </ul>
+<br />
+
+* <h3>Chapter 12 </h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[An R script to create temporal neighbourhood structures for RW1 and RW2](data/ch12/RW_weights_matrix.R)</button></li>
   </ul>
 <br />
 
