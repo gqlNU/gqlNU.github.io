@@ -8,6 +8,10 @@ title: "Modelling Spatial and Spatial-Temporal Data: A Bayesian approach"
 </font>
 
 ----
+<pre><code><font size=4.9><a href="news.html"><font color="black">Book now: A 3.5 days training course on modelling spatial and spatial-temporal             data will be held at Northumbria University April 5-8, 2022. </font></a></font></code></pre>
+
+----
+
 <!-- https://easycloudsolutions.com/2011/02/16/how-to-display-an-image-in-html-with-padding/ for padding -->
 
 
@@ -41,4 +45,10 @@ This is the accompanying website for our book **_Modelling Spatial and Spatial-T
 
 <br />
 
-<!-- <pre><code><font size=4><a href="news.html"><font color="black">News: We plan to deliver a training course on modelling spatial and spatial-temporal data at Northumbria University in 2020</font></a></font></code></pre>-->
+<br />
+
+
+<font size=5>"*The finely organized style of presentation makes it an excellent textbook and reference book for postgraduate students and quantitative researchers in different fields with little mathematical background. *"</font> <font size=3>--- Anoop Chaturvedi, University of Allahabad (Journal of the Royal Statistical Society: Series A)</font>
+
+<font size=5>"*This well-written book is a good source for the Bayesian concepts and methods to practice the spatial-temporal analysis using R and WinBugs codes. [...] I recommend this book to economics, health, statistics and computing professionals and researchers.*"</font><font size=4> --- Ramalingam Shanmugam, Texas State University (Journal of Statistical Computation and Simulation)</font>
+

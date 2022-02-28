@@ -8,43 +8,38 @@ ___
 
 Following the publication of our book, we will be delivering a training course on modelling spatial and spatial-temporal data. This training course introduces powerful Bayesian spatial and spatial-temporal modelling techniques that enable researchers to analyse social, economic, political and public health data.
 
-<!--
 <br />
-<button type="button" class="btn btn-primary">[Course registration will open soon](news.html)</button>
--->
+<button type="button" class="btn btn-primary">[Book Now](https://www.northumbria.ac.uk/study-at-northumbria/continuing-professional-development-short-courses-specialist-training/spatial-and-spatial-temporal-data-analysis-using-bayesian-hierarchical-models/)</button>
 
 <br />
 
-#### <u>Where and when</u>
+#### <u>When and where</u>
 
-<!-- ~~May 12-15 2020~~  At Northumbria University, Newcastle, UK. We are sorry that the course will be postponed till later this year. -->
-We plan to deliver this training course in 2021 and will update this in due course.
+April 5-8, 2022  at Northumbria University, Newcastle, UK. 
 
 
 <br />
 
 #### <u>Course leaders</u>
 
-Prof. Robert Haining (Cambridge) and Dr. Guangquan Li (Northumbria)
+Prof. Robert Haining (University of Cambridge) and Dr. Guangquan Li (Northumbria University)
 
 <br />
 
 #### <u>Course outline</u>
-
-*	Types and properties of spatial and spatial-temporal data and implications on model building; 
-
-*	Techniques for testing spatial heterogeneity and autocorrelation; clusters and hotspot detection; 
-*	Uses of maps and graphics for visualization (using R);
-*	Bayesian inference for spatial and spatial-temporal data;
-*	Introduction to Monte Carlo simulation methods;
-*	Simple Bayesian regression models;
-*	Bayesian hierarchical models for spatial data, both continuous (e.g., normal/log normal data) and discrete (e.g., count/binary data);
-*	Implementation of various Bayesian hierarchical models in WinBUGS for spatial data;
-*	Introduction to spatial econometric models and their implementations in WinBUGS;
-*	Regression diagnostics with particular relevance for spatial data;
-*	Introduction to modelling small area time series data (e.g. linear model in time, autoregressive models, interrupted time series models);
-*	Introduction to various strategies/structures for modelling spatial-temporal data;
-*	Discussion of space-time models using practical examples.
+* Types and properties of spatial and spatial-temporal data and implications for model building;
+* Techniques for testing spatial heterogeneity and autocorrelation; clusters and hotspot detection;
+* Uses of maps and graphics for visualization using R;
+* Bayesian inference for spatial and spatial-temporal data;
+* Introduction to Markov chain Monte Carlo methods;
+* Simple Bayesian regression models;
+* Bayesian hierarchical models for spatial data, both continuous (e.g., normal/log normal data) and discrete (e.g., count/binary data);
+* Implementation of various Bayesian hierarchical models in WinBUGS for spatial data;
+* Introduction to spatial econometric models;
+* Regression diagnostics with particular relevance for spatial data;
+* Introduction to modelling small area time series data, including linear models in time, autoregressive models and interrupted time series models;
+* Introduction to various strategies/structures for modelling spatial-temporal data;
+* Discussion of space-time models using practical examples.
 
 <br />
 
@@ -52,7 +47,6 @@ Prof. Robert Haining (Cambridge) and Dr. Guangquan Li (Northumbria)
 
 The course is aimed at PhD students, Post-Doctoral researchers and academic staff in the social, economic, political and public health sciences who have a background in quantitative methods at least up to and including the normal linear regression model. Prior experience of generalized linear modelling will be helpful for some parts of the course as will some familiarity with the basic ideas behind Bayesian inference.
 
-<!--
+
 <br />
-<button type="button" class="btn btn-primary">[Course registration will open soon](news.html)</button>
--->
+<button type="button" class="btn btn-primary">[Book Now](https://www.northumbria.ac.uk/study-at-northumbria/continuing-professional-development-short-courses-specialist-training/spatial-and-spatial-temporal-data-analysis-using-bayesian-hierarchical-models/)</button>
