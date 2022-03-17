@@ -8,7 +8,7 @@ title: "Modelling Spatial and Spatial-Temporal Data: A Bayesian approach"
 </font>
 
 ----
-<pre><code><font size=4.9><a href="news.html"><font color="black">Book now: A 3.5 days training course on modelling spatial and spatial-temporal data will be held at Northumbria University April 5-8, 2022. </font></a></font></code></pre>
+<pre><code><font size=4.9><a href="news.html"><font color="black">Our plan to deliver a 3.5 days training course on modelling spatial and spatial-temporal data. </font></a></font></code></pre>
 
 ----
 
