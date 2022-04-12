@@ -47,9 +47,10 @@ This is the accompanying website for our book **_Modelling Spatial and Spatial-T
 
 <br />
 
+### Book review:
 
-<font size=4>"*The finely organized style of presentation makes it an excellent textbook and reference book for postgraduate students and quantitative researchers in different fields with little mathematical background. *"</font> <font size=3>--- Anoop Chaturvedi, University of Allahabad (Journal of the Royal Statistical Society: Series A)</font>
+* <font size=4>"*The finely organized style of presentation makes it an excellent textbook and reference book for postgraduate students and quantitative researchers in different fields with little mathematical background. *"</font> <font size=3>--- Anoop Chaturvedi, University of Allahabad (Journal of the Royal Statistical Society: Series A)</font>
 
-<font size=4>"*This well-written book is a good source for the Bayesian concepts and methods to practice the spatial-temporal analysis using R and WinBugs codes. [...] I recommend this book to economics, health, statistics and computing professionals and researchers.*"</font><font size=3> --- Ramalingam Shanmugam, Texas State University (Journal of Statistical Computation and Simulation)</font>
+* <font size=4>"*This well-written book is a good source for the Bayesian concepts and methods to practice the spatial-temporal analysis using R and WinBugs codes. [...] I recommend this book to economics, health, statistics and computing professionals and researchers.*"</font><font size=3> --- Ramalingam Shanmugam, Texas State University (Journal of Statistical Computation and Simulation)</font>
 
-<font size=4>"*....an excellent resource for graduate students, statisticians, and quantitative researchers who are interested in analyzing areal spatial data. The inclusion of both spatial hierarchical models and econometrics models is particularly unique. Finally, the book’s organization, contents, and writing style also encourage self-learning.*"</font><font size=3> --- Howard H. Chang, Department of Biostatistics and Bioinformatics, Emory University, Atlanta, Georgia, USA (Biometrics)</font>
+* <font size=4>"*....an excellent resource for graduate students, statisticians, and quantitative researchers who are interested in analyzing areal spatial data. The inclusion of both spatial hierarchical models and econometrics models is particularly unique. Finally, the book’s organization, contents, and writing style also encourage self-learning.*"</font><font size=3> --- Howard H. Chang, Department of Biostatistics and Bioinformatics, Emory University, Atlanta, Georgia, USA (Biometrics)</font>
