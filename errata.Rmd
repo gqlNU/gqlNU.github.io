@@ -7,7 +7,13 @@
 
 * Chapter 12
   + page 425 Eq 12.13: at the end of the penultimate line of the equation, it should read "for t=T-1".
- 
+
+<br />
+
+
+* Chapter 14
+  + On page 473, the vector n containing the number of houses of each COA is missing in the data list in Figure 14.2. This is the column houses in the data file named Peterborough COA-level burglary counts 2001-2008 (in csv format) under https://www.sptmbook.com/datacode.html.
+
 <br />
 
 * Chapter 15
