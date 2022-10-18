@@ -83,6 +83,8 @@
   <ul>
     <li><button type="button" class="btn btn-primary">[Peterborough COA-level burglary counts 2005-2008 (in csv format)](data/peterborough/peterborough_2005to2008.csv)</button></li>
     <li><button type="button" class="btn btn-primary">[Peterborough COA shapefile](data/peterborough/PeterboroughCOA_shape.zip)</button></li>
+    <li><button type="button" class="btn btn-primary">[Malaria shapefile](data/malaria/malaria.zip)</button></li>
+    <li><button type="button" class="btn btn-primary">[knox_test.R](data/ch13/Knox_malaria.R)</button> and the script requires the functions in [this file](data/ch13/functions4knox.R) </li>
   </ul>
 <br />
 
