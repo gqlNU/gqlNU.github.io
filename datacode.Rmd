@@ -1,5 +1,11 @@
 <title>Data & Code </title>
 
+* <h3>Chapter 1 </h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Ward level burglary data for Cambridgeshire](data/ch1/camburgy.zip)</button></li>
+    <li><button type="button" class="btn btn-primary">[map_ward_burglary_cambridgeshire.R for Exercise 1.1](data/ch1/map_ward_burglary_cambridgeshire.R)</button></li>
+  </ul>
+<br />
 
 * <h3>Chapter 4 </h3>
   <ul>
