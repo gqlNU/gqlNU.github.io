@@ -8,6 +8,6 @@ ___
 
 * <h3>Lab 7. Thinking statistically and thinking spatially: an illustration</h3>
   <ul>
-    <li><button type="button" class="btn btn-primary">[Material for Lab 7](data/KTH2023/lab7.zip)</button></li>
+    <li><button type="button" class="btn btn-primary">[Material for Lab 7](data/courses/KTH2023/lab7.zip)</button></li>
   </ul>
 <br />
