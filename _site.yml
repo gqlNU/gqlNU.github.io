@@ -13,7 +13,8 @@ navbar:
       href: news.html
     - text: "Errata"
       href: errata.html
-
+    - text: "Course Material"
+      href: courses.html
 output:
   html_document:
     theme: darkly
