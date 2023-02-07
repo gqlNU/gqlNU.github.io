@@ -11,3 +11,9 @@ ___
     <li><button type="button" class="btn btn-primary">[Material for Lab 7](data/courses/KTH2023/lab7.zip)</button></li>
   </ul>
 <br />
+
+* <h3>Lab 8. Introduction to WinBUGS</h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Material for Lab 8](data/courses/KTH2023/lab8.zip)</button></li>
+  </ul>
+<br />
