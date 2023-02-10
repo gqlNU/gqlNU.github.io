@@ -17,3 +17,10 @@ ___
     <li><button type="button" class="btn btn-primary">[Material for Lab 8](data/courses/KTH2023/lab8.zip)</button></li>
   </ul>
 <br />
+
+
+* <h3>Lab 10. Fitting Bayesian hierarchical models for discrete valued response data in WinBUGS</h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Material for Lab 10](data/courses/KTH2023/lab10.zip)</button></li>
+  </ul>
+<br />
