@@ -18,22 +18,9 @@ ___
   </ul>
 <br />
 
-
-* <h3>Lab 10. Fitting Bayesian hierarchical models for discrete valued response data in WinBUGS</h3>
+* <h3>Lab 9. Fitting Bayesian hierarchical models for continuous valued response data in WinBUGS</h3>
   <ul>
-    <li><button type="button" class="btn btn-primary">[Material for Lab 10](data/courses/KTH2023/lab10.zip)</button></li>
+    <li><button type="button" class="btn btn-primary">[Material for Lab 9](data/courses/KTH2023/lab9.zip)</button></li>
   </ul>
 <br />
 
-
-* <h3>Lab 13. Model development for analysing space-time data (Part 1): fitting a separable spatial-temporal model in WinBUGS</h3>
-  <ul>
-    <li><button type="button" class="btn btn-primary">[Material for Lab 13](data/courses/KTH2023/lab13.zip)</button></li>
-  </ul>
-<br />
-
-* <h3>Lab 14. Model development for analysing space-time data (Part 2): fitting an advanced spatial-temporal model in WinBUGS</h3>
-  <ul>
-    <li><button type="button" class="btn btn-primary">[Material for Lab 14](data/courses/KTH2023/lab14.zip)</button></li>
-  </ul>
-<br />
