@@ -6,12 +6,14 @@
 
 ___
 
+* <h3>[Lecture 7. Scoping spatial statistics](data/courses/KTH2023/lecture7.zip)</h3>
 * <h3>Lab 7. Thinking statistically and thinking spatially: an illustration</h3>
   <ul>
     <li><button type="button" class="btn btn-primary">[Material for Lab 7](data/courses/KTH2023/lab7.zip)</button></li>
   </ul>
 <br />
 
+* <h3>[Lecture 8. Introduction to Bayesian Inference](data/courses/KTH2023/lecture8.zip)</h3>
 * <h3>Lab 8. Introduction to WinBUGS</h3>
   <ul>
     <li><button type="button" class="btn btn-primary">[Material for Lab 8](data/courses/KTH2023/lab8.zip)</button></li>
