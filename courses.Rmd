@@ -21,9 +21,16 @@ ___
   </ul>
 <br />
 
+* <h3>[Lecture 9. Fitting Bayesian hierarchical models for continuous valued response data in WinBUGS](data/courses/KTH2023/lecture9.zip)</h3>
 * <h3>Lab 9. Fitting Bayesian hierarchical models for continuous valued response data in WinBUGS</h3>
   <ul>
     <li><button type="button" class="btn btn-primary">[Material for Lab 9](data/courses/KTH2023/lab9.zip)</button></li>
   </ul>
 <br />
 
+* <h3>[Lecture 10. Fitting Bayesian hierarchical models for discrete valued response data in WinBUGS](data/courses/KTH2023/lecture10.zip)</h3>
+* <h3>Lab 10. Fitting Bayesian hierarchical models for discrete valued response data in WinBUGS</h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Material for Lab 10](data/courses/KTH2023/lab10.zip)</button></li>
+  </ul>
+<br />
