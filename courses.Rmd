@@ -52,16 +52,24 @@ ___
 
 
 ```R
+#### R code to read a dataset in Excel format and
+#### export it to a file in the WinBUGS list format
+#### block 1 requires the excel data to be exported to a csv file
+#### block 2 reads in the Excel file directly without the need to export
+#### (use block 2!)
+
+####   block 1
 in.file <- "c:/demo_WinBUGS_data_formatting.csv"
 out.file <- "c:/ForWinBUGS.csv"
-data <- read.csv(file.des,header=TRUE)
+data <- read.csv(in.file,header=TRUE)
 data <- lapply(data,function(x){as.numeric(x)})
 dput(data,out.file)
 
 
+####   block 2
 #  if you can install packages in R,
 #  you do not need to convert an Excel file to csv manually
-install.packages(readxl)
+install.packages("readxl")
 library(readxl)
 in.file <- "c:/demo_WinBUGS_data_formatting.xlsx"
 out.file <- "c:/ForWinBUGS.csv"
