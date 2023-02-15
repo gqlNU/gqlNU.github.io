@@ -48,6 +48,13 @@ ___
     <li><button type="button" class="btn btn-primary">[Material for Lab 12](data/courses/KTH2023/lab12.zip)</button></li>
   </ul>
 <br />
+<br />
 
 
-
+```R
+in.file <- "c:/demo_WinBUGS_data_formatting.csv"
+out.file <- "c:/ForWinBUGS.csv"
+data <- read.csv(file.des,header=TRUE)
+data <- lapply(data,function(x){as.numeric(x)})
+dput(data,out.file)
+```
