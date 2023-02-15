@@ -34,3 +34,20 @@ ___
     <li><button type="button" class="btn btn-primary">[Material for Lab 10](data/courses/KTH2023/lab10.zip)</button></li>
   </ul>
 <br />
+
+* <h3>[The Peterborough data in Lab 10 in Excel format for data formatting demo](data/courses/KTH2023/demo_WinBUGS_data_formatting.zip)</h3>
+<br />
+
+* <h3>[Lecture 11. Further topics in modelling spatial data](data/courses/KTH2023/lecture11.zip)</h3>
+* <h3>Lab 11. Ecological modelling of small area health data using Bayesian spatial models</h3>
+<br />
+
+* <h3>[Lecture 12. Modelling small area spatial-temporal data: an introduction](data/courses/KTH2023/lecture12.zip)</h3>
+* <h3>Lab 12. Modelling (small area) time series data in WinBUGS</h3>
+  <ul>
+    <li><button type="button" class="btn btn-primary">[Material for Lab 12](data/courses/KTH2023/lab12.zip)</button></li>
+  </ul>
+<br />
+
+
+
