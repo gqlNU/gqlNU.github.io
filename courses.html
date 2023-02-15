@@ -389,7 +389,7 @@ small area spatial-temporal data: an introduction</a></p>
 </ul>
 <pre class="r"><code>in.file &lt;- &quot;c:/demo_WinBUGS_data_formatting.csv&quot;
 out.file &lt;- &quot;c:/ForWinBUGS.csv&quot;
-data &lt;- read.csv(file.des,header=TRUE)
+data &lt;- read.csv(in.file,header=TRUE)
 data &lt;- lapply(data,function(x){as.numeric(x)})
 dput(data,out.file)
 
