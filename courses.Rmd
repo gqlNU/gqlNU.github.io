@@ -57,4 +57,17 @@ out.file <- "c:/ForWinBUGS.csv"
 data <- read.csv(file.des,header=TRUE)
 data <- lapply(data,function(x){as.numeric(x)})
 dput(data,out.file)
+
+
+#  if you can install packages in R,
+#  you do not need to convert an Excel file to csv manually
+install.packages(readxl)
+library(readxl)
+in.file <- "c:/demo_WinBUGS_data_formatting.xlsx"
+out.file <- "c:/ForWinBUGS.csv"
+
+data <- read_excel(in.file)
+data <- lapply(data,function(x){as.numeric(x)})
+dput(data,out.file)
+
 ```

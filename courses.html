@@ -391,7 +391,20 @@ small area spatial-temporal data: an introduction</a></p>
 out.file &lt;- &quot;c:/ForWinBUGS.csv&quot;
 data &lt;- read.csv(file.des,header=TRUE)
 data &lt;- lapply(data,function(x){as.numeric(x)})
-dput(data,out.file)</code></pre>
+dput(data,out.file)
+
+
+#  if you can install packages in R,
+#  you do not need to convert an Excel file to csv manually
+install.packages(readxl)
+library(readxl)
+in.file &lt;- &quot;c:/demo_WinBUGS_data_formatting.xlsx&quot;
+out.file &lt;- &quot;c:/ForWinBUGS.csv&quot;
+
+data &lt;- read_excel(in.file)
+data &lt;- lapply(data,function(x){as.numeric(x)})
+dput(data,out.file)
+</code></pre>
 </div>
 
 
